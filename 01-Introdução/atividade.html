@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="nome"></h1>
+     <h2 id="Idade"></h2>
+     <h3 id="Curso"></h3>
+     <script>
+
+        // Objeto
+        const aluno = {nome :"João", idade: "18", curso: "Informática"}
+
+        // Array - Vetor
+        const materias = ['JavaScript','HTML','CSS']
+    
+        // Manipular o DOM trocando o H1 pelos valores
+        document.getElementById("nome").innerHTML = aluno.nome
+        document.getElementById("Idade").innerHTML =  materias[0]
+        document.getElementById("Curso").innerText = "O aluno João está estudando JavaScript"
+     </script>
+    
+</body>
+</html>
